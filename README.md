@@ -10,8 +10,8 @@ This script automatically adds or removes AppImages to/from the application menu
 
 ## Dependencies
 
-- `desktop-file-utils` (for `desktop-file-install` and `desktop-file-validate` commands)
-- `appimaged` (optional, if you prefer automatic AppImage integration)
+- `inotify-tools` (for monitoring changes in the `~/Application` folder)
+- `python3` (for executing the script)
 
 ## Installation
 
@@ -19,7 +19,7 @@ This script automatically adds or removes AppImages to/from the application menu
 
 1. **Install dependencies**:
     ```sh
-    sudo pacman -Syu desktop-file-utils
+    sudo pacman -Syu inotify-tools python
     ```
 
 2. **Install the script**:
@@ -33,7 +33,7 @@ This script automatically adds or removes AppImages to/from the application menu
 
 1. **Install dependencies**:
     ```sh
-    sudo eopkg install desktop-file-utils
+    sudo eopkg install inotify-tools python3
     ```
 
 2. **Install the script**:
@@ -48,7 +48,7 @@ This script automatically adds or removes AppImages to/from the application menu
 1. **Install dependencies**:
     ```sh
     sudo apt update
-    sudo apt install desktop-file-utils
+    sudo apt install inotify-tools python3
     ```
 
 2. **Install the script**:
@@ -62,7 +62,7 @@ This script automatically adds or removes AppImages to/from the application menu
 
 1. **Install dependencies**:
     ```sh
-    sudo dnf install desktop-file-utils
+    sudo dnf install inotify-tools python3
     ```
 
 2. **Install the script**:
@@ -76,7 +76,7 @@ This script automatically adds or removes AppImages to/from the application menu
 
 1. **Install dependencies**:
     ```sh
-    sudo zypper install desktop-file-utils
+    sudo zypper install inotify-tools python3
     ```
 
 2. **Install the script**:
@@ -89,7 +89,7 @@ This script automatically adds or removes AppImages to/from the application menu
 ### Slackware
 
 1. **Install dependencies**:
-    - Install the `desktop-file-utils` package from the SlackBuilds repository or use your preferred method.
+    - Install `inotify-tools` and `python3` from the SlackBuilds repository or your preferred method.
 
 2. **Install the script**:
     - Download or clone the script to a directory of your choice.
@@ -107,7 +107,7 @@ To ensure the script runs automatically at startup, you need to configure it in 
 1. Open System Settings.
 2. Go to **Startup and Shutdown**.
 3. Click on **Autostart**.
-4. Click **Add Program...**.
+4. Click **Add Login Script...**.
 5. Browse to your script and add it.
 
 ### GNOME
@@ -132,7 +132,7 @@ To ensure the script runs automatically at startup, you need to configure it in 
 
 ## Troubleshooting
 
-- Ensure the `desktop-file-utils` package is installed and up to date.
+- Ensure the `inotify-tools` and `python3` packages are installed and up to date.
 - Verify that the script has executable permissions.
 - Check your desktop environment's logs if the script does not run as expected.
 
