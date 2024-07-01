@@ -1,5 +1,6 @@
 # AppImage Menu Manager Script
 
+A simple and convenient way to manage appimages. Just put the `appimage_manager.py` in your startup applications make a directory in your home folder and name it "Applications" and put your appimages there. 
 This script automatically adds or removes AppImages to/from the application menus when they are added to or removed from the `~/Application` folder. It helps to keep your application menus updated with your AppImages seamlessly.
 
 ## Features
@@ -23,10 +24,10 @@ This script automatically adds or removes AppImages to/from the application menu
     ```
 
 2. **Install the script**:
-    - Download or clone the script to a directory of your choice.
+    - Download or clone the `appimage_manager.py` to a directory of your choice.
     - Make the script executable:
       ```sh
-      chmod +x /path/to/your/script.sh
+      chmod +x /path/to/your/appimage_manager.py
       ```
 
 ### Solus
@@ -37,10 +38,10 @@ This script automatically adds or removes AppImages to/from the application menu
     ```
 
 2. **Install the script**:
-    - Download or clone the script to a directory of your choice.
+    - Download or clone the `appimage_manager.py` to a directory of your choice.
     - Make the script executable:
       ```sh
-      chmod +x /path/to/your/script.sh
+      chmod +x /path/to/your/appimage_manager.py
       ```
 
 ### Debian, Ubuntu, Mint
@@ -52,10 +53,10 @@ This script automatically adds or removes AppImages to/from the application menu
     ```
 
 2. **Install the script**:
-    - Download or clone the script to a directory of your choice.
+    - Download or clone the `appimage_manager.py` to a directory of your choice.
     - Make the script executable:
       ```sh
-      chmod +x /path/to/your/script.sh
+      chmod +x /path/to/your/appimage_manager.py
       ```
 
 ### Red Hat, Fedora
@@ -66,10 +67,10 @@ This script automatically adds or removes AppImages to/from the application menu
     ```
 
 2. **Install the script**:
-    - Download or clone the script to a directory of your choice.
+    - Download or clone the `appimage_manager.py` to a directory of your choice.
     - Make the script executable:
       ```sh
-      chmod +x /path/to/your/script.sh
+      chmod +x /path/to/your/appimage_manager.py
       ```
 
 ### OpenSUSE
@@ -80,10 +81,10 @@ This script automatically adds or removes AppImages to/from the application menu
     ```
 
 2. **Install the script**:
-    - Download or clone the script to a directory of your choice.
+    - Download or clone the `appimage_manager.py` to a directory of your choice.
     - Make the script executable:
       ```sh
-      chmod +x /path/to/your/script.sh
+      chmod +x /path/to/your/appimage_manager.py
       ```
 
 ### Slackware
@@ -92,10 +93,10 @@ This script automatically adds or removes AppImages to/from the application menu
     - Install `inotify-tools` and `python3` from the SlackBuilds repository or your preferred method.
 
 2. **Install the script**:
-    - Download or clone the script to a directory of your choice.
+    - Download or clone the `appimage_manager.py` to a directory of your choice.
     - Make the script executable:
       ```sh
-      chmod +x /path/to/your/script.sh
+      chmod +x /path/to/your/appimage_manager.py
       ```
 
 ## Autostart Configuration
