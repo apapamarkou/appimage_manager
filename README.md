@@ -50,7 +50,7 @@ This script automatically adds or removes AppImages to/from the application menu
 2. **Install the script**:
     ```bash
     mkdir -p ~/Applications/appimage_manager
-    wget https://github.com/yourusername/appimage_manager/raw/main/appimage_manager.py -O ~/Applications/appimage_manager/appimage_manager.py
+    wget https://github.com/yourusername/apapamarkou/raw/main/appimage_manager.py -O ~/Applications/appimage_manager/appimage_manager.py
     chmod +x ~/Applications/appimage_manager/appimage_manager.py
     ```
 
