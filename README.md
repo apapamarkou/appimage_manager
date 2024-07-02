@@ -50,7 +50,7 @@ This script automatically adds or removes AppImages to/from your desktop applica
 2. **Install the script**:
     ```bash
     mkdir -p ~/Applications/appimage_manager
-    wget https://github.com/apapamarkou/appimage_manager/raw/main/appimage_manager.py -O ~/Applications/appimage_manager/appimage_manager.py
+    git clone https://github.com/apapamarkou/appimage_manager.git ~/Applications/appimage_manager
     chmod +x ~/Applications/appimage_manager/appimage_manager.py
     ```
 
