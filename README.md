@@ -1,12 +1,12 @@
 # AppImage Menu Manager Script
 
-A simple and convenient way to manage appimages. Just put the `appimage_manager.py` in your startup applications make a directory in your home folder and name it "Applications" and put your appimages there. 
-This script automatically adds or removes AppImages to/from the application menus when they are added to or removed from the `~/Application` folder. It helps to keep your application menus updated with your AppImages seamlessly.
+A simple and convenient way to manage appimages. Just put the `appimage_manager.py` in your startup applications, make a directory in your home folder, name it "Applications" and add or remove your appimages there. 
+This script automatically adds or removes AppImages to/from your desktop application menus when they are added to or removed from the `~/Application` folder. It helps to keep your application menus updated with your AppImages seamlessly.
 
 ## Features
 
 - Automatically add AppImages to application menus.
-- Remove AppImages from application menus when deleted from `~/Application`.
+- Automatically remove AppImages from application menus when deleted from `~/Application`.
 - Easy setup and configuration.
 
 ## Dependencies
@@ -79,13 +79,6 @@ This script automatically adds or removes AppImages to/from the application menu
 
 ## License
 
-This script is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This script is licensed under the GNU License. See the [LICENSE](LICENSE) file for details.
 
-## Contributing
-
-Feel free to contribute by submitting issues, pull requests, or suggestions.
-
-## Contact
-
-For any questions or support, please open an issue on the repository or contact the script author.
 
