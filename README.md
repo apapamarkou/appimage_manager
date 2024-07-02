@@ -16,115 +16,55 @@ This script automatically adds or removes AppImages to/from the application menu
 
 ## Installation
 
-### Arch Linux, Manjaro, Garuda
-
-1. **Install dependencies**:
+1. **Install dependencies**
+   - **Arch Linux, Manjaro, Garuda**
     ```sh
     sudo pacman -Syu inotify-tools python
     ```
 
-2. **Install the script**:
-    - Download or clone the `appimage_manager.py` to a directory of your choice.
-    - Make the script executable:
-      ```sh
-      chmod +x /path/to/your/appimage_manager.py
-      ```
-
-### Solus
-
-1. **Install dependencies**:
+    - **Solus**
     ```sh
     sudo eopkg install inotify-tools python3
     ```
 
-2. **Install the script**:
-    - Download or clone the `appimage_manager.py` to a directory of your choice.
-    - Make the script executable:
-      ```sh
-      chmod +x /path/to/your/appimage_manager.py
-      ```
-
-### Debian, Ubuntu, Mint
-
-1. **Install dependencies**:
+    - **Debian, Ubuntu, Mint**
     ```sh
     sudo apt update
     sudo apt install inotify-tools python3
     ```
 
-2. **Install the script**:
-    - Download or clone the `appimage_manager.py` to a directory of your choice.
-    - Make the script executable:
-      ```sh
-      chmod +x /path/to/your/appimage_manager.py
-      ```
-
-### Red Hat, Fedora
-
-1. **Install dependencies**:
+    - **Red Hat, Fedora**
     ```sh
     sudo dnf install inotify-tools python3
     ```
 
-2. **Install the script**:
-    - Download or clone the `appimage_manager.py` to a directory of your choice.
-    - Make the script executable:
-      ```sh
-      chmod +x /path/to/your/appimage_manager.py
-      ```
-
-### OpenSUSE
-
-1. **Install dependencies**:
+    - **OpenSUSE**
     ```sh
     sudo zypper install inotify-tools python3
     ```
 
-2. **Install the script**:
-    - Download or clone the `appimage_manager.py` to a directory of your choice.
-    - Make the script executable:
-      ```sh
-      chmod +x /path/to/your/appimage_manager.py
-      ```
+    - **Slackware**
+    Install `inotify-tools` and `python3` from the SlackBuilds repository or your preferred method.
 
-### Slackware
-
-1. **Install dependencies**:
-    - Install `inotify-tools` and `python3` from the SlackBuilds repository or your preferred method.
 
 2. **Install the script**:
-    - Download or clone the `appimage_manager.py` to a directory of your choice.
-    - Make the script executable:
-      ```sh
-      chmod +x /path/to/your/appimage_manager.py
-      ```
+    ```bash
+    mkdir -p ~/Applications/appimage_manager
+    wget https://github.com/yourusername/appimage_manager/raw/main/appimage_manager.py -O ~/Applications/appimage_manager/appimage_manager.py
+    chmod +x ~/Applications/appimage_manager/appimage_manager.py
+    ```
 
-## Autostart Configuration
 
-To ensure the script runs automatically at startup, you need to configure it in your desktop environment.
+3. **Add to startup:**
 
-### KDE
+    - **KDE Plasma:** Go to `System Settings` -> `Startup and Shutdown` -> `Autostart` -> `Add Login Script` and point to `~/Applications/appimage_manager/appimage_manager.py`.
 
-1. Open System Settings.
-2. Go to **Startup and Shutdown**.
-3. Click on **Autostart**.
-4. Click **Add Login Script...**.
-5. Browse to your script and add it.
+    - **GNOME:** Open `Startup Applications`, click `Add`, and point to `~/Applications/appimage_manager/appimage_manager.py`.
 
-### GNOME
+    - **XFCE:** Go to `Session and Startup` -> `Application Autostart`, click `Add`, and enter the command `~/Applications/appimage_manager/appimage_manager.py`.
 
-1. Open **Startup Applications** from the Activities overview.
-2. Click **Add**.
-3. Enter a name (e.g., "AppImage Menu Manager"), and in the command field, enter the path to your script.
-4. Click **Add** to save.
+    - **i3/Sway:** Add the script to your `~/.config/i3/config` or `~/.config/sway/config` file using `exec --no-startup-id ~/Applications/appimage_manager/appimage_manager.py`.
 
-### XFCE
-
-1. Open **Session and Startup** from the settings manager.
-2. Go to the **Application Autostart** tab.
-3. Click **Add**.
-4. Enter a name (e.g., "AppImage Menu Manager") and in the command field, enter the path to your script.
-5. Click **OK** to add it.
 
 ## Usage
 
