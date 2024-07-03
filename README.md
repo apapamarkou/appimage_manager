@@ -3,6 +3,8 @@
 A simple and convenient way to manage appimages. Just put the `appimage_manager.py` in your startup applications, make a directory in your home folder, name it "Applications" and add or remove your appimages there. 
 This script automatically adds or removes AppImages to/from your desktop application menus when they are added to or removed from the `~/Application` folder. It helps to keep your application menus updated with your AppImages seamlessly.
 
+![Peek 2024-07-04 02-27](https://github.com/apapamarkou/appimage_manager/assets/42995877/c3e452c2-613d-4c88-bf45-e1acb94a45b5)
+
 ## Features
 
 - Automatically add AppImages to application menus.
